@@ -1,0 +1,82 @@
+body{
+    box-sizing: border-box;
+
+}
+
+
+.inputs{
+    /* margin: 10px; */
+    cursor: pointer;
+    
+}
+
+.labels{
+    cursor: pointer;
+    
+}
+:hover.labels{
+    background-color: rgb(96, 93, 93);
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.oneSkill{
+    margin: 20px 5px;
+}
+
+.inputs-container {
+    /* background-color: #313030; */
+    background: rgba(0, 0, 0, 0.55);
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(6px);
+    padding: 20px;
+    border-radius: 18px;
+    width: 25%;
+    max-width: 200px;
+    height: 350px;
+    overflow:auto;
+
+
+}
+
+.display-container{
+    background-color: rgba(15, 25, 35, 0.8);
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+
+    padding: 25px;
+    border-radius: 20px;
+    width: 60%;
+    max-width: 400px;
+    height: 350px;
+    
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  align-content: flex-start;
+  /* margin-top: 15px; */
+}
+
+.display-p{
+    
+     background: linear-gradient(135deg, #4cc9f0, #4895ef);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  max-height: 25px;
+  box-shadow: 0 0 8px rgba(72, 149, 239, 0.6);
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
